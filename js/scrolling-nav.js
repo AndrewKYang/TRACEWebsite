@@ -7,6 +7,18 @@ $(window).scroll(function() {
     }
 });
 
+$(document).scroll(function() {
+
+  if ($(this).scrollTop() >= 50) {
+
+    $(".logo").html("<img src='img/logo1.png'>");
+	} else {
+
+    $(".logo").html("<img src='img/logo.png' width='50px'>");
+  }
+
+});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
