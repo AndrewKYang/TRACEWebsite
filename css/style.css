@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 100px;
-    font-family: 'Lato',Helvetica,Arial,sans-serif;
-    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
 }
 
 html {
@@ -33,10 +33,6 @@ ul, menu, dir {
     }
 }
 
-.logo {
-    margin-top: 6%;
-}
-
 .navbar-brand {
   float: left;
 
@@ -47,20 +43,23 @@ ul, menu, dir {
 .navbar-nav {
   float: right;
 }
-
-h1 {
-    font-variant: small-caps;
-}
-
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
+<<<<<<< Updated upstream
     background-image: url(../img/background.jpg);
+=======
+<<<<<<< HEAD
+    background-image: url(../img/background.png);
+>>>>>>> Stashed changes
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+=======
+    background: #eee;
+>>>>>>> parent of f3c60d2... Merge pull request #1 from AndrewKYang/varun's-alt
 }
 
 .act-section {
@@ -73,39 +72,9 @@ h1 {
 .about-section {
     height: 100%;
     padding-top: 150px;
-    text-align: left;
-    background-image: url(../img/EPHS.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.white {
-    color: #fff;
-    font-variant: small-caps;
-}
-
-.main {
     text-align: center;
-    font-weight: bold;
-    font-size: 10rem;
+    background: #eee;
 }
-
-.appellate {
-    text-align: left;
-    font-weight: bold;
-    font-size: 8rem;
-    margin-top: -5%;
-}
-
-.list {
-    font-size: 2rem;
-    text-align: left;
-    margin-left: 17%;
-
-}
-
 .join-section {
     height: 100%;
     padding-top: 150px;
@@ -135,6 +104,7 @@ h1 {
 .bs-docs-footer {
     text-align: left;
 }
+<<<<<<< HEAD
 
 
 /*beta*/
@@ -243,3 +213,5 @@ a:before, a:after, a > span:before, a > span:after {
 .effect-2:hover:before, .effect-2:hover:after {
   transform: scale(1, 1);
 }
+=======
+>>>>>>> parent of f3c60d2... Merge pull request #1 from AndrewKYang/varun's-alt
