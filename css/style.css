@@ -1,7 +1,6 @@
 body {
     width: 100%;
     height: 100%;
-    padding-top: 100px;
     font-family: 'Lato',Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
@@ -34,7 +33,7 @@ ul, menu, dir {
 }
 
 .logo {
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .navbar-brand {
@@ -54,13 +53,14 @@ h1 {
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 17%;
     text-align: center;
     background-image: url(../img/background.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    position: center center;
 }
 
 .act-section {
@@ -68,6 +68,7 @@ h1 {
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    text-align: center;
 }
 
 .about-section {
@@ -199,6 +200,13 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+.buttonrow{
+  margin-top: 5%;
+}
+.buttonrow a,button-primary{
+  margin-left: 3%;
+  margin-top: 3%;
+}
 /*link hover*/
 
 a:before, a:after, a > span:before, a > span:after {
