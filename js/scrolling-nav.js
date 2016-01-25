@@ -11,7 +11,7 @@ $(document).scroll(function() {
 
   if ($(this).scrollTop() >= 50) {
 
-    $(".logo").html("<img src='img/logo1.png'>");
+    $(".logo").html("<img src='img/logo1.png' height='35px'>");
 	} else {
 
     $(".logo").html("<img src='img/logo.png' width='50px'>");
