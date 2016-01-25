@@ -2,11 +2,22 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 100px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
 }
 
 html {
     width: 100%;
     height: 100%;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
 
 @media(min-width:767px) {
@@ -36,25 +47,48 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .act-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 .join-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
+}
+.afooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+.afooter-links {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.afooter-links li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.afooter a{
+  color: #fff;
+}
+@media (min-width: 768px)
+.bs-docs-footer {
+    text-align: left;
 }
