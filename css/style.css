@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 100px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-font-size: 14px;
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    font-size: 14px;
 }
 
 html {
@@ -33,6 +33,10 @@ ul, menu, dir {
     }
 }
 
+.logo {
+    margin-top: 6%;
+}
+
 .navbar-brand {
   float: left;
 
@@ -43,11 +47,20 @@ ul, menu, dir {
 .navbar-nav {
   float: right;
 }
+
+h1 {
+    font-variant: small-caps;
+}
+
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background-image: url(../img/background.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .act-section {
@@ -60,9 +73,39 @@ ul, menu, dir {
 .about-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    text-align: left;
+    background-image: url(../img/EPHS.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+.white {
+    color: #fff;
+    font-variant: small-caps;
+}
+
+.main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.appellate {
+    text-align: left;
+    font-weight: bold;
+    font-size: 8rem;
+    margin-top: -5%;
+}
+
+.list {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 17%;
+
+}
+
 .join-section {
     height: 100%;
     padding-top: 150px;
@@ -92,3 +135,113 @@ ul, menu, dir {
 .bs-docs-footer {
     text-align: left;
 }
+
+
+/*beta*/
+
+/*buttons from skeleton*/
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 68px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #eee;
+  border-color: #888;
+  outline: 0; }
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+/*link hover*/
+
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+.effect-3 {
+  display: inline-block;
+  padding-top: -5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+.effect-3:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #0883a4;
+  transform: translateX(-100%);
+}
+.effect-3:hover:before {
+  transform: translateX(0);
+}
+
+.effect-2:before, .effect-2:after {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-color: #0883a4;
+}
+.effect-2:before {
+  border-width: 2px 0 2px 0;
+  transform: scaleX(0);
+}
+.effect-2:after {
+  border-width: 0 2px 0 2px;
+  transform: scaleY(0);
+}
+.effect-2:hover:before, .effect-2:hover:after {
+  transform: scale(1, 1);
+}
+
+
