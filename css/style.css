@@ -49,6 +49,19 @@ ul, menu, dir {
 
 h1 {
     font-variant: small-caps;
+    color: #22313F;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 2px 0 #bbb,
+               0 2px 0 #b9b9b9,
+               0 3px 0 #aaa,
+               0 3px 1px rgba(0,0,0,.1),
+               0 0 3px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 2px 3px rgba(0,0,0,.2),
+               0 3px 5px rgba(0,0,0,.25),
+               0 2px 2px rgba(0,0,0,.2),
+               0 5px 5px rgba(0,0,0,.15);
 }
 
 .intro-section {
@@ -67,8 +80,8 @@ h1 {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
-    text-align: center;
+
+    background: #F2F1EF;
 }
 
 .about-section {
@@ -87,6 +100,9 @@ blockquote{
 }
 .quote{
   color: #efffee;
+}
+h1.center {
+    text-align: center;
 }
 
 .white {
@@ -110,8 +126,7 @@ blockquote{
 .list {
     font-size: 2rem;
     text-align: left;
-    margin-left: 17%;
-
+    margin-left: 36.3%;
 }
 
 .join-section {
@@ -146,6 +161,40 @@ blockquote{
 
 
 /*beta*/
+
+/*caption text*/
+
+.caption {
+    width: 50%;
+    background-color: #E4F1FE;
+    border-radius: 6px;
+    margin: 5% 5% 5% 5%;
+
+}
+
+.caption p {
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    margin: 0px 35px 0px 35px;
+    padding: 25px 0 25px 0;
+    font-variant: small-caps;
+}
+
+/*specific text*/
+
+div.join {
+    margin: auto;
+    margin-top: 7%;
+}
+
+div.joinsmallmargin {
+  margin: auto;
+  margin-top: 3%;
+}
+
+.more {
+  margin-top: 5%;
+}
 
 /*buttons from skeleton*/
 
@@ -208,8 +257,8 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 .buttonrow{
-  margin-top: 5%;
-}
+  margin: auto;
+  margin-left: -3%;
 .buttonrow a,button-primary{
   margin-left: 3%;
   margin-top: 3%;
