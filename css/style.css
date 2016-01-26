@@ -175,6 +175,15 @@ h1.center {
 
 /*specific text*/
 
+.andrew {
+  text-align: right;
+  font-size: 1.8rem;
+}
+
+blockquote {
+  margin-top: 5%;
+}
+
 div.join {
     margin: auto;
     margin-top: 7%;
