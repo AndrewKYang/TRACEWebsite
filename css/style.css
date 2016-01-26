@@ -81,6 +81,13 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
 }
+blockquote{
+  color: #C0CfCf;
+  font-size: 150%;
+}
+.quote{
+  color: #efffee;
+}
 
 .white {
     color: #fff;
