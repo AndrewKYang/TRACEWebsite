@@ -80,8 +80,7 @@ h1 {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-
-    background: #F2F1EF;
+    background: #fff;
 }
 
 .about-section {
@@ -101,6 +100,10 @@ blockquote{
 .quote{
   color: #efffee;
 }
+h1.center {
+    text-align: center;
+}
+
 h1.center {
     text-align: center;
 }
@@ -257,8 +260,10 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 .buttonrow{
+  margin-top: 5%;
   margin: auto;
   margin-left: -3%;
+}
 .buttonrow a,button-primary{
   margin-left: 3%;
   margin-top: 3%;
