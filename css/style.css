@@ -50,6 +50,19 @@ ul, menu, dir {
 
 h1 {
     font-variant: small-caps;
+    color: #22313F;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 .intro-section {
@@ -67,7 +80,7 @@ h1 {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #F2F1EF;
 }
 
 .about-section {
@@ -79,6 +92,10 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+h1.center {
+    text-align: center;
 }
 
 .white {
@@ -102,8 +119,7 @@ h1 {
 .list {
     font-size: 2rem;
     text-align: left;
-    margin-left: 17%;
-
+    margin-left: 36.3%;
 }
 
 .join-section {
@@ -138,6 +154,35 @@ h1 {
 
 
 /*beta*/
+
+/*caption text*/
+
+.caption {
+    width: 50%;
+    background-color: #E4F1FE;
+    border-radius: 6px;
+    margin: 5% 5% 5% 5%;
+
+}
+
+.caption p {
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    margin: 0px 35px 0px 35px;
+    padding: 25px 0 25px 0;
+    font-variant: small-caps;
+}
+
+/*specific text*/
+
+div.join {
+    margin: auto;
+    margin-top: 7%;
+}
+
+.more {
+  margin-top: 5%;
+}
 
 /*buttons from skeleton*/
 
@@ -243,5 +288,3 @@ a:before, a:after, a > span:before, a > span:after {
 .effect-2:hover:before, .effect-2:hover:after {
   transform: scale(1, 1);
 }
-
-
