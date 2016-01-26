@@ -1,7 +1,6 @@
 body {
     width: 100%;
     height: 100%;
-    padding-top: 100px;
     font-family: 'Lato',Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
@@ -34,7 +33,7 @@ ul, menu, dir {
 }
 
 .logo {
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .navbar-brand {
@@ -67,20 +66,26 @@ h1 {
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 17%;
     text-align: center;
     background-image: url(../img/background.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    position: center center;
 }
 
 .act-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
+<<<<<<< Updated upstream
+    background: #fff;
+    text-align: center;
+=======
     background: #F2F1EF;
+>>>>>>> Stashed changes
 }
 
 .about-section {
@@ -92,6 +97,13 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+blockquote{
+  color: #C0CfCf;
+  font-size: 150%;
+}
+.quote{
+  color: #efffee;
 }
 
 h1.center {
@@ -175,18 +187,14 @@ h1.center {
 
 /*specific text*/
 
-.andrew {
-  text-align: right;
-  font-size: 1.8rem;
-}
-
-blockquote {
-  margin-top: 5%;
-}
-
 div.join {
     margin: auto;
     margin-top: 7%;
+}
+
+div.joinsmallmargin {
+  margin: auto;
+  margin-top: 3%;
 }
 
 .more {
@@ -253,6 +261,15 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+.buttonrow{
+  margin-top: 5%;
+  margin: auto;
+  margin-left: -3%;
+}
+.buttonrow a,button-primary{
+  margin-left: 3%;
+  margin-top: 3%;
+}
 /*link hover*/
 
 a:before, a:after, a > span:before, a > span:after {
