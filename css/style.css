@@ -261,7 +261,7 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
-.buttonrow{
+.buttonrow {
   margin-top: 5%;
   margin: auto;
   margin-left: -3%;
@@ -314,3 +314,62 @@ a:before, a:after, a > span:before, a > span:after {
 .effect-2:hover:before, .effect-2:hover:after {
   transform: scale(1, 1);
 }
+
+/*mobile*/
+
+/* Portrait */
+
+@media screen and (max-width : 480px) {
+  h1.main {
+    font-size: 6rem;
+  }
+  h1.top {
+    margin-top: 25%;
+    font-size: 8rem;
+  }
+  .caption {
+    width: 100%;
+  }
+  .logo {
+    margin-top: 25%;
+    margin-left: -27%;
+  }
+  .about {
+    margin-top: -22%;
+    font-size: 6rem;
+  }
+  .info {
+    font-size: 2rem;
+    margin-left: 3%;
+  }
+  .infoblock {
+    font-size: 1.2rem;
+  }
+  blockquote {
+    margin-left: 4%;
+  }
+  .andrew {
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+  .mobileheading {
+    margin-top: -10%;
+  }
+  .act {
+    margin-top: -15%;
+  }
+  .buttonrow {
+    display: inline-block;
+  }
+  .button-primary {
+    height: 300%;
+    line-height: 300%;
+    padding: 0 30px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
