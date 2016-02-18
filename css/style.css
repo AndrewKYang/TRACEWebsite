@@ -367,8 +367,17 @@ a:before, a:after, a > span:before, a > span:after {
     padding: 0 30px;
     font-size: 1rem;
   }
+  .teacher {
+    margin-left: 0%;
+  }
+  .col-lg-12 {
+    text-align: center;
+  }
 }
 
+.teacher {
+  margin-left: 3%; 
+}
 
 
 
