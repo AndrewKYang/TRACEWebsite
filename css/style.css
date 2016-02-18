@@ -52,6 +52,7 @@ h1 {
     color: #22313F;
     text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
+<<<<<<< HEAD
                0 3px 0 #bbb,
                0 4px 0 #b9b9b9,
                0 5px 0 #aaa,
@@ -62,6 +63,18 @@ h1 {
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
+=======
+               0 2px 0 #bbb,
+               0 2px 0 #b9b9b9,
+               0 3px 0 #aaa,
+               0 3px 1px rgba(0,0,0,.1),
+               0 0 3px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 2px 3px rgba(0,0,0,.2),
+               0 3px 5px rgba(0,0,0,.25),
+               0 2px 2px rgba(0,0,0,.2),
+               0 5px 5px rgba(0,0,0,.15);
+>>>>>>> origin/master
 }
 
 .intro-section {
@@ -82,10 +95,13 @@ h1 {
     text-align: center;
 <<<<<<< Updated upstream
     background: #fff;
+<<<<<<< HEAD
     text-align: center;
 =======
     background: #F2F1EF;
 >>>>>>> Stashed changes
+=======
+>>>>>>> origin/master
 }
 
 .about-section {
@@ -104,6 +120,13 @@ blockquote{
 }
 .quote{
   color: #efffee;
+}
+h1.center {
+    text-align: center;
+}
+
+h1.center {
+    text-align: center;
 }
 
 h1.center {
@@ -261,7 +284,7 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
-.buttonrow{
+.buttonrow {
   margin-top: 5%;
   margin: auto;
   margin-left: -3%;
@@ -314,3 +337,71 @@ a:before, a:after, a > span:before, a > span:after {
 .effect-2:hover:before, .effect-2:hover:after {
   transform: scale(1, 1);
 }
+
+/*mobile*/
+
+/* Portrait */
+
+@media screen and (max-width : 480px) {
+  h1.main {
+    font-size: 6rem;
+  }
+  h1.top {
+    margin-top: 25%;
+    font-size: 8rem;
+  }
+  .caption {
+    width: 100%;
+  }
+  .logo {
+    margin-top: 25%;
+    margin-left: -27%;
+  }
+  .about {
+    margin-top: -22%;
+    font-size: 6rem;
+  }
+  .info {
+    font-size: 2rem;
+    margin-left: 3%;
+  }
+  .infoblock {
+    font-size: 1.2rem;
+  }
+  blockquote {
+    margin-left: 4%;
+  }
+  .andrew {
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+  .mobileheading {
+    margin-top: -10%;
+  }
+  .act {
+    margin-top: -15%;
+  }
+  .buttonrow {
+    display: inline-block;
+  }
+  .button-primary {
+    height: 300%;
+    line-height: 300%;
+    padding: 0 30px;
+    font-size: 1rem;
+  }
+  .teacher {
+    margin-left: 0%;
+  }
+  .col-lg-12 {
+    text-align: center;
+  }
+}
+
+.teacher {
+  margin-left: 3%; 
+}
+
+
+
+
