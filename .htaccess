@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z]+)/([0-9]+)$ /$1/$2.html [L]
